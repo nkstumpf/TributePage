@@ -1,0 +1,61 @@
+h1, h2, h3, h4, h5, h6, p {
+    color: whitesmoke;
+}
+
+ul, li {
+    display: inline-block;
+    color: whitesmoke;
+    list-style: none;
+}
+
+li {
+    margin-left: 1em;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover {
+    color: hotpink;
+}
+
+header {
+    width:100%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+#main {
+    background-color: black;
+}
+
+.bio-grid {
+    display: grid;
+}
+
+.disc-grid {
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+
+}
+
+#img-div {
+    margin: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#image {
+    display: block;
+    max-width: 60%;
+    height: auto;
+}
+
+.bio-img {
+    display: block;
+    max-width: 70%;
+    height: auto;
+}
+
