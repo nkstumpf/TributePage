@@ -1,0 +1,27 @@
+/* 600px */
+
+@media (max-width: 675px) {
+    .bio {
+        display: block;
+    }
+}
+
+
+/* 1000px */
+
+@media (max-width: 1000px) {
+    #main-nav {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    .nav-item {
+        border-bottom: solid var(--secondary-color) 1px;
+    }
+
+    .nav-item:last-child {
+        border-bottom: none;
+    }
+    
+}
