@@ -14,19 +14,25 @@
     --secondary-font: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0 5% 0 5%;
+}
+
 
 h1, h2, h3, h4, h5, h6, p {
     color: var(--txt-main);
+    margin: 20px 0 20px 0;
 }
 
 h1 {
-    margin: 5%;
+    color: var(--accent-color);
     font-family: var(--title-font);
     font-size: 3em;
 }
 
 h2, h3, h4, h5, h6 {
     font-family: var(--primary-font);
+    font-size: 2em;
 }
 
 p {
@@ -34,8 +40,14 @@ p {
     line-height: 1.5em;
 }
 
+img {
+    border-radius: 2%;
+}
+
 hr {
  border-color: var(--secondary-color);
+ margin-top: 20px;
+ margin-bottom: 20px;
 }
 
 .nav-item {
@@ -72,14 +84,44 @@ nav {
     background-color: var(--primary-color);
 }
 
-.bio-grid {
-    display: grid;
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#flex-item-1 {
+    flex-basis: 55%;
+}
+
+#flex-item-3 {
+    flex-basis: 55%;
+    order:2;
+}
+
+#flex-item-5 {
+    flex-basis: 55%;
+}
+
+.flex-item-img {
+    flex-basis: 40%;
+    /* margin: 20px; */
+    
 }
 
 .disc-grid {
+    width: 100%;
     display: grid;
-    grid-template-columns: 1fr, 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
 
+}
+
+.albumartgriditem {
+    margin-top: 20px;
+    width: 250px;
+    height: 250px;
 }
 
 .bio {
@@ -88,7 +130,7 @@ nav {
 }
 
 #sub-title {
-    margin-top: 0;
+    margin-bottom: 15px;
 }
 
 #bio-meta {
@@ -106,12 +148,32 @@ nav {
     display: block;
     max-width: 100%;
     height: auto;
-    border-radius: 2%;
 }
 
 .bio-img {
     display: block;
-    max-width: 70%;
+    max-width: 100%;
     height: auto;
 }
 
+#doc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#trailer {
+    margin: 0 auto;
+}
+
+#sectionD-additional {
+    margin-top: 20px;
+    text-align: center;
+    padding:1em;
+    width: 100%;
+    background-color: var(--accent-color);
+}
+
+.footer-txt {
+    color: var(--primary-color);
+}

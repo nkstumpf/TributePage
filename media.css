@@ -23,5 +23,9 @@
     .nav-item:last-child {
         border-bottom: none;
     }
+
+    .flex {
+        display: block;
+    } 
     
 }
