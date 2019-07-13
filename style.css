@@ -274,4 +274,8 @@ nav {
     h5 {
         font-size: 1.5em;
     }
+
+    #tribute-link {
+        width: auto;
+    }
 }
