@@ -275,6 +275,7 @@ nav {
         font-size: 1.5em;
     }
 
+    /* Trying to fix visual bug on mobile devices where the footer link does NOT scale properly */
     #tribute-link {
         width: 150px;
         height:auto;
