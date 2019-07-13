@@ -276,6 +276,7 @@ nav {
     }
 
     #tribute-link {
-        width: auto;
+        width: 150px;
+        height:auto;
     }
 }
