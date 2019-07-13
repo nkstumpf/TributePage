@@ -1,11 +1,10 @@
-/* 600px */
+/* 1200px */
 
-@media (max-width: 675px) {
-    .bio {
-        display: block;
+@media (max-width: 1200px) {
+    .disc-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-
 
 /* 1000px */
 
@@ -27,5 +26,37 @@
     .flex {
         display: block;
     } 
+
+    #centered {
+        margin: 0 auto;
+    }
+
+    .disc-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
     
+}
+
+/* 600px */
+
+@media (max-width: 675px) {
+    .bio {
+        display: block;
+    }
+
+    #centered {
+        margin: 0 auto;
+    }
+
+    .disc-grid {
+        grid-template-columns: 100%;
+    }
+
+    #trailer {
+        height: auto;
+    }
+
+    h5 {
+        font-size: 1.5em;
+    }
 }

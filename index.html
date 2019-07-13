@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="media.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik+Mono+One|Rubik:500&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300|Rubik+Mono+One|Rubik:500&display=swap"rel="stylesheet">
     <title>freeCodeCamp Projects: Build a Tribute Page</title>
 </head>
 
@@ -110,7 +108,7 @@
                         book.</p>
                 </div>
                 <div class="flex-item-img">
-                    <img class="bio-img"
+                    <img id="centered" class="bio-img"
                         src="http://1.bp.blogspot.com/-eMlD97Y6TFo/VCh_nO1gYJI/AAAAAAAAb90/g7GV_0z0uCY/s1600/Jason%2BBecker.promoFB.0727-14.jpg"
                         alt="Older Jason with his guitars">
                 </div>
@@ -145,34 +143,51 @@
             <h4>Discography</h4>
             <hr>
             <div class="disc-grid">
-                <div id="speedmetalsymphony">
+                <div id="speedmetalsymphony" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/2/21/CacophonySpeedMetalSymphony.jpg"
                         alt="album cover speed metal symphony 1987">
+                    <a class="purchase-link" href="https://www.amazon.com/Speed-Metal-Symphony-Cacophony/dp/B0180DAGXY/ref=tmm_msc_swatch_0?_encoding=UTF8&qid=&sr=">Buy Online Here!</a>
                 </div>
-                <div id="gooff!">
+                <div id="gooff!" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/0/09/Cacophony_-_1988_-_Go_Off%21.jpg"
                         alt="album cover go off! 1988">
+                        <a class="purchase-link" href="https://www.amazon.com/Go-Off-Cacophony/dp/B0180DFTWM/ref=sr_1_1?keywords=go+off%21+cacophony&qid=1563031617&s=dmusic&sr=1-1">Buy Online Here!</a>
                 </div>
-                <div id="perpetualburn">
+                <div id="perpetualburn" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/b/b4/PerpetualBurn.jpg"
                         alt="album cover perpetual burn 1988">
+                        <a class="purchase-link" href="https://www.amazon.com/Perpetual-Burn-Jason-Becker/dp/B0180DI654/ref=sr_1_1?keywords=perpetual+burn+jason+becker&qid=1563031662&s=dmusic&sr=1-1">Buy Online Here!</a>
                 </div>
-                <div id="perspective">
+                <div id="perspective" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/1/16/Jason_Becker_-_1996_-_Perspective_%28original%29.jpg"
                         alt="album cover perspective 1996">
+                        <a class="purchase-link" href="https://www.amazon.com/Perspective-Jason-Becker/dp/B003A9YE4Q/ref=sr_1_1?keywords=perspective+jason+becker&qid=1563031708&s=dmusic&sr=1-1">Buy Online Here!</a>
                 </div>
-                <div id="theraspberryjams">
+                <div id="theraspberryjams" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/f/f6/RaspberryJams.jpg"
                         alt="album cover the raspberry jams 1999">
+                        <a class="purchase-link" href="https://www.amazon.com/Raspberry-Jams-Jason-Becker/dp/B0180DHAME/ref=sr_1_1?keywords=the+raspberry+jams+jason+becker&qid=1563031735&s=dmusic&sr=1-1">Buy Online Here!</a>
                 </div>
-                <div id="theblackberryjams">
+                <div id="theblackberryjams" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/e/e5/The_Blackberry_Jams.jpg"
                         alt="album cover the blackberry jams 2003">
+                        <a class="purchase-link" href="https://www.amazon.com/Blackberry-Jams-Jason-Becker/dp/B0180CXAT2/ref=sr_1_1?keywords=the+blackberry+jams+jason+becker&qid=1563031756&s=dmusic&sr=1-1">Buy Online Here!</a>
                 </div>
-                <div id="collection">
+                <div id="collection" class="disc-grid-item">
                     <img class="albumartgriditem" src="https://upload.wikimedia.org/wikipedia/en/b/bb/Collection_-_Jason_Becker_Album_Cover.jpg"
                         alt="album cover collection 2008">
+                        <a class="purchase-link" href="https://www.amazon.com/Jason-Becker-Collection/dp/B016MMZXBU/ref=sr_1_2?keywords=collection+jason+becker&qid=1563031815&s=dmusic&sr=1-2">Buy Online Here!</a>
                 </div>
+                <div id="boymeetsguitar" class="disc-grid-item">
+                        <img class="albumartgriditem" src="https://m.media-amazon.com/images/I/81YTIHnnz6L._SS500_.jpg"
+                            alt="album cover collection 2008">
+                            <a class="purchase-link" href="https://www.amazon.com/Boy-Meets-Guitar-Youngster-Tapes/dp/B009GGFZMC/ref=sr_1_1?keywords=boy+meets+guitar+jason+becker&qid=1563031883&s=dmusic&sr=1-1">Buy Online Here!</a>
+                    </div>
+                    <div id="triumphanthearts" class="disc-grid-item">
+                            <img class="albumartgriditem" src="https://m.media-amazon.com/images/I/71ioztu+EXL._SS500_.jpg"
+                                alt="album cover collection 2008">
+                                <a class="purchase-link" href="https://www.amazon.com/Triumphant-Hearts-Jason-Becker/dp/B07J56FHSZ/ref=sr_1_1?keywords=triumphant+hearts+jason+becker&qid=1563033417&s=dmusic&sr=1-1">Buy Online Here!</a>
+                        </div>
             </div>
         </section>
 
@@ -183,11 +198,15 @@
                 <iframe id="trailer" title="vimeo-player" src="https://player.vimeo.com/video/39405460" width="640" height="360" frameborder="0" allowfullscreen></iframe>
             </div>
         </section>
-    </main>
 
-    <footer id="sectionD-additional" id="footer">
-        <h5 class="footer-txt">Info found on this site compliments of the Jason Becker Wiki!</h5>
-        <a id="tribute-info" class="footer-txt" href="https://en.wikipedia.org/wiki/Jason_Becker" target="_blank">Click HERE for more info about Jason Becker!</a>
+        <section id="sectionD-additional">
+                <h5>Info found on this site compliments of the Jason Becker Wiki!</h5>
+                <a id="tribute-link" class="footer-txt" href="https://en.wikipedia.org/wiki/Jason_Becker" target="_blank">Click HERE for more info about Jason Becker!</a>
+        </section>
+    </main>
+    <hr>
+
+    <footer id="footer">
         <p class="footer-txt"> Nick Stumpf 2019 - freeCodeCamp Responsive Web Design Projects - Tribute Page</p>
     </footer>
 
